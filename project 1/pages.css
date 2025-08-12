@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Mozilla Text";
+}
+nav{
+    /*   */
+    display :flex;
+    justify-content: space-around;
+    background-color: black;
+    color :white;
+    align-items: center;
+    padding:20px;
+}
+.left{
+    display :flex;
+    align-items: center;
+}
+.left img{
+    width :126px;
+    height: auto; 
+    margin-right: 20px;
+    cursor :pointer;
+}
+.left a{
+    color :white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+.left{
+    padding-left: -40px;
+}
+
+.right{
+    display :flex;
+}
+.right .submit {
+    font-size: 24px;
+    border-style: solid;
+    border-color:white;
+    background-color :transparent; 
+    border-radius : 4px;
+    color: white;
+    padding :6px 32px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.right .login{
+    font-size :24px;
+    border-style :none;
+    background-color:#4C5FD5; 
+    color :white;
+    margin-left :1rem;
+    padding :6px 32px;
+    font-weight :bold;
+    border-radius :4px;
+    cursor: pointer;
+}
+.right .login:hover{
+    background-color: white;
+    color :black;
+}
+.right .search .material-symbols-outlined{
+    color :white;
+}   
+.search span{
+    padding :o 8px;
+    margin-right: 10px;
+}
+.right .search-input{
+    border-radius: 4px;
+    font-family: "Mozilla Text";
+    padding-top :6px;
+    padding-bottom: 6px; 
+    font-size :24px; 
+    width: 250px;
+}
+.search-input{
+    border :none;
+    outline: none;
+    padding-left: 20px;
+}
+.right .search{
+    display :flex;
+    align-items: center;
+    margin-right:10px;
+
+}
